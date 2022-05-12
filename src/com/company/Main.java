@@ -24,9 +24,9 @@ public class Main {
         return array;
     }
     public static void printArray(int[] array) {
-//        System.out.println("*********************");
-//        System.out.println("   List of Numbers");
-//        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("   List of Numbers");
+        System.out.println("*********************");
         for (int i = 0; i < array.length; i++) {
             System.out.println("Element " + i + " contents " + array[i]);
         }
